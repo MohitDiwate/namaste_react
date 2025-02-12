@@ -1,0 +1,32 @@
+.header img{
+  height: 50px;
+  width:50px;
+}
+
+.header{
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(183, 120, 120);
+  border-radius: 10px;
+}
+
+.header input{
+  height:40px;
+  width: 500px;
+  border: none;
+  margin: none;
+  border-radius: 12px;
+  padding-left:12px;
+  font-size: 20px;
+}
+
+.header input:focus{
+  border: none;
+  margin: none;
+}
+
+body{
+  background-color: #000;
+}
